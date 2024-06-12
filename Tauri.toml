@@ -16,3 +16,6 @@ shell = { open = "^((https|unityhub)?://\\w+).+" }
 active = true
 targets = ["appimage"]
 identifier = "com.anatawa12.tauri-link-appimage-test"
+icon = [
+    "icons/icon.png",
+]
