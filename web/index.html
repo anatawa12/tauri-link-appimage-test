@@ -1,0 +1,13 @@
+<html>
+
+<label>Enter URL to open: <input id="url" value="https://github.com/"></label>
+
+<button id="open">Open</button>
+
+<script>
+	document.getElementById('open').addEventListener('click', () => {
+		const url = document.getElementById('url').value;
+		const shellOpen = window.__TAURI__.shell.open;
+		shellOpen(url);
+	})
+</script>

@@ -1,0 +1,18 @@
+[build]
+beforeDevCommand = ":"
+devPath = "web"
+distDir = "web"
+withGlobalTauri = true
+
+[package]
+productName = "ALCOM"
+
+[tauri.allowlist]
+shell = { open = "^((https|unityhub)?://\\w+).+" }
+
+[[tauri.windows]]
+
+[tauri.bundle]
+active = true
+targets = ["appimage"]
+identifier = "com.anatawa12.tauri-link-appimage-test"
