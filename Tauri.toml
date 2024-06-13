@@ -5,7 +5,7 @@ distDir = "web"
 withGlobalTauri = true
 
 [package]
-productName = "ALCOM"
+productName = "tauri-link-appimage-test"
 
 [tauri.allowlist]
 shell = { open = "^((https|unityhub)?://\\w+).+" }
